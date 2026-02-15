@@ -1,5 +1,4 @@
-from collections import defaultdict
-from typing import List
+# Link: https://leetcode.com/problems/group-anagrams/description/
 
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
