@@ -4,25 +4,20 @@
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
-        par_dict = {")": "(", "}": "{", "]": "["}
+        close_to_open = {")": "(", "]": "[", "}": "{"}
 
-        for i, ele in enumerate(s):
-            if ele in par_dict:
-                if len(stack) == 0:
-                    return False
-                matching_ele = par_dict[ele]
-                if stack.pop() != matching_ele:
+        for ele in s:
+            if ele in close_to_open:
+                if len(stack) == 0 or stack.pop() != close_to_open[ele]:
                     return False
             else:
                 stack.append(ele)
 
-        if len(stack) != 0:
-            return False
-        return True
+        return True if not stack else False
 
 
-s = "([{}])"
-s = "[]"
-s = "[(])"
-s = "(){}}{"
-print(Solution().isValid(s))
+# s = "([{}])"
+# s = "[]"
+# s = "[(])"
+# s = "(){}}{"
+# print(Solution().isValid(s))
