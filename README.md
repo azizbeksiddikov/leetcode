@@ -19,7 +19,7 @@ First problems are primarily from the https://neetcode.io/roadmap.
 | Difficulty | Folder    | Count |
 | ---------- | --------- | ----- |
 | Easy       | `easy/`   | 20    |
-| Medium     | `medium/` | 18    |
+| Medium     | `medium/` | 19    |
 | Hard       | `hard/`   | 2     |
 
-Total: 40 problems solved.
+Total: 41 problems solved.
