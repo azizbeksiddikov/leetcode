@@ -18,8 +18,8 @@ First problems are primarily from the https://neetcode.io/roadmap.
 
 | Difficulty | Folder    | Count |
 | ---------- | --------- | ----- |
-| Easy       | `easy/`   | 19    |
+| Easy       | `easy/`   | 20    |
 | Medium     | `medium/` | 17    |
 | Hard       | `hard/`   | 2     |
 
-Total: 38 problems solved.
+Total: 39 problems solved.
