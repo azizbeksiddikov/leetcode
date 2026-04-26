@@ -20,6 +20,6 @@ First problems are primarily from the https://neetcode.io/roadmap.
 | ---------- | --------- | ----- |
 | Easy       | `easy/`   | 21    |
 | Medium     | `medium/` | 23    |
-| Hard       | `hard/`   | 4     |
+| Hard       | `hard/`   | 5     |
 
-Total: 48 problems solved.
+Total: 49 problems solved.
